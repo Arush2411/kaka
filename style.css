@@ -1,0 +1,30 @@
+h4{
+    font-size: 25px !important; 
+}
+
+.btn-success:hover
+{
+    background-color: red;
+}
+
+.btn-warning:hover
+{
+    background-color: lightcoral;
+}
+
+body{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+canvas
+{
+    border-radius: 10px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px white;}
+    to{box-shadow: 1px 1px 38px palevioletred;}
+}
